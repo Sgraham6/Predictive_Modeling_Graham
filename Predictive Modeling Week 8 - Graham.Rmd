@@ -1,0 +1,49 @@
+---
+title: "Predictive Modeling Week 8 - Graham"
+author: "Sean Graham"
+date: "12/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Week 1
+# In this week, I learned the difference between regression and classification; if the target has numerical values, it's regression, and if the target has a finite number of classes, it's classification. I also learned about the Bias-Variance Tradeoff. As a model's bias increases, its variance decreases and vice versa; there is an optimal point which minimizes the MSE (Bias^2 + Variance).
+```
+
+```{r}
+# Week 2
+# In this week, I learned how to use summary statistics to explore data; by using the summary command, you can see things such as minimum and maximum, quartiles, and median and mode for numerical columns and count statistics for categorical columns (if they've been converted to factors). I also learned how to visualize data with ggplot and how to use this to perform exploratory analysis on said data.
+```
+
+```{r}
+# Week 3
+# In this week, I learned how to perform linear regression, which included splitting data into training and test groups and fitting models using the lm() function. I also learned how to interpret the results, including how to determine the significance of a coefficient by looking for a low p-value.
+```
+
+```{r}
+# Week 4
+# In this week, I learned how to perform logistic regression, which included understanding things such as logistic functions and performance measures (such as the confusion matrix). I also learned how make and interpret predictions using the model and the predict() function, as well as how to use these predictions to determine how the model did.
+```
+
+```{r}
+# Week 5
+# In this week, I learned about GLMs (Generalized Linear Models) and how they relax some of the restrictions of linear regression models. For example, the errors in a GLM need not be normally distributed, unlike in a linear regression model. I also learned about exponential family distributions, specifically Poisson and Gamma, and how to build these models and make predictions. 
+```
+
+```{r}
+# Week 6
+# In this week, I learned about decision trees and how they segment the predictor spaces into several simple regions. I learned about their pros and cons, how to build and plot the models, how to prune them, and how to make predictions. I also learned about bagging trees and random forests, both of which create many tree models, and as with decision trees, I learned how to build the models and how to make predictions.
+```
+
+```{r}
+# Week 7
+# In this week, I learned about the difference between supervised and unsupervised learning; the former has responses and features while the latter has only features. I also learned about k-means clustering, specifically how to determine the optimal number of clusters and how to use this to visualize the classification using different colors.
+```
+
+```{r}
+# In this week, I learned about creating presentation slides in Rstudio, such as ioslides presentations, as well as how to add incremental bullets and change the size of the display. I also learned about Git and Github, specifically how to set up repositories and save rmd files to a Github account. 
+```
